@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 11
+    id Char (12) ;
+    oneway Char (1) ;
+    bridge Char (1) ;
+    osm_id Char (12) ;
+    fclass Char (28) ;
+    code Decimal (10,0) ;
+    name Char (100) ;
+    ref Char (20) ;
+    maxspeed Decimal (10,0) ;
+    layer Decimal (12,0) ;
+    tunnel Char (1) ;

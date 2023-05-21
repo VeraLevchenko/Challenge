@@ -1,0 +1,24 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 11
+    id Char (12) ;
+    oneway Char (1) ;
+    bridge Char (1) ;
+    osm_id Char (12) ;
+    fclass Char (28) ;
+    code Integer ;
+    name Char (100) ;
+    ref Char (20) ;
+    maxspeed Integer ;
+    layer Decimal (12, 0) ;
+    tunnel Char (1) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "351da969-9ab4-42f5-8ceb-2e58bc552a61"
+"\MapInfo\ParentTableID" = "dfe19533-45c1-4a4d-8155-6c487313c8a3"
+end_metadata
